@@ -362,8 +362,8 @@ namespace MGRModLauncher
 
         private void GenerateSubButton_Click(object sender, EventArgs e)
         {
-            string[] Dirs = Directory.GetDirectories($@"{Settings.Settings.Path}Mods\");
-            string[] MGRmods = Directory.GetFiles($@"{Settings.Settings.Path}Mods\", "*mgrmod", SearchOption.AllDirectories);
+            string[] Dirs = Directory.GetDirectories($@"Mods\");
+            string[] MGRmods = Directory.GetFiles($@"Mods\", "*.mgrmod", SearchOption.AllDirectories);
             foreach (string str in Dirs)
             {
                 foreach (string str1 in MGRmods)
@@ -374,14 +374,14 @@ namespace MGRModLauncher
                     }
                     string[] sepDir = null;
                     sepDir = str.Split('\\');
-                    File.Create($@"{Settings.Settings.Path}Mods\{sepDir[1]}\{sepDir[1]}.mgrmod").Close();
+                    File.Create($@"Mods\{sepDir[1]}\{sepDir[1]}.mgrmod").Close();
                     string[] lines = new string[5];
                     lines[0] = $"name=";
                     lines[1] = $@"path=Mods/{sepDir[1]}/";
                     lines[2] = "id=0";
                     lines[3] = $"filename={sepDir[1]}";
                     lines[4] = $"isloaded={false}";
-                    File.WriteAllLines($@"{Settings.Settings.Path}Mods\{sepDir[1]}\{sepDir[1]}.mgrmod", lines);
+                    File.WriteAllLines($@"Mods\{sepDir[1]}\{sepDir[1]}.mgrmod", lines);
                 }
             }
         }
