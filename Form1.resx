@@ -341,7 +341,7 @@
     <value>5</value>
   </data>
   <data name="VersionLabel.Text" xml:space="preserve">
-    <value>V e r s i o n :  v 0.02 (Alpha)</value>
+    <value>V e r s i o n :  v 0.03 (Alpha)</value>
   </data>
   <data name="&gt;&gt;VersionLabel.Name" xml:space="preserve">
     <value>VersionLabel</value>
@@ -408,63 +408,6 @@
   </data>
   <data name="&gt;&gt;buttonMainMenu.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>533, 150</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 36</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>SideMenuPanel</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="SideMenuPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="SideMenuPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="SideMenuPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1008, 100</value>
-  </data>
-  <data name="SideMenuPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;SideMenuPanel.Name" xml:space="preserve">
-    <value>SideMenuPanel</value>
-  </data>
-  <data name="&gt;&gt;SideMenuPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SideMenuPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;SideMenuPanel.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -668,6 +611,51 @@
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 150</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 36</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>SideMenuPanel</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SideMenuPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="SideMenuPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="SideMenuPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 100</value>
+  </data>
+  <data name="SideMenuPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SideMenuPanel.Name" xml:space="preserve">
+    <value>SideMenuPanel</value>
+  </data>
+  <data name="&gt;&gt;SideMenuPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SideMenuPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SideMenuPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -719,114 +707,6 @@
   <data name="panel5.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;QuitButton.Name" xml:space="preserve">
-    <value>QuitButton</value>
-  </data>
-  <data name="&gt;&gt;QuitButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;QuitButton.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;QuitButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;AboutPanel.Name" xml:space="preserve">
-    <value>AboutPanel</value>
-  </data>
-  <data name="&gt;&gt;AboutPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AboutPanel.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;AboutPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;AboutMenu.Name" xml:space="preserve">
-    <value>AboutMenu</value>
-  </data>
-  <data name="&gt;&gt;AboutMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AboutMenu.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;AboutMenu.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;SettingsPanel.Name" xml:space="preserve">
-    <value>SettingsPanel</value>
-  </data>
-  <data name="&gt;&gt;SettingsPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SettingsPanel.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;SettingsPanel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;SettingsMenuButton.Name" xml:space="preserve">
-    <value>SettingsMenuButton</value>
-  </data>
-  <data name="&gt;&gt;SettingsMenuButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SettingsMenuButton.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;SettingsMenuButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;MainPanel.Name" xml:space="preserve">
-    <value>MainPanel</value>
-  </data>
-  <data name="&gt;&gt;MainPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainPanel.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;MainPanel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;ModsMenuButton.Name" xml:space="preserve">
-    <value>ModsMenuButton</value>
-  </data>
-  <data name="&gt;&gt;ModsMenuButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ModsMenuButton.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;ModsMenuButton.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 102</value>
-  </data>
-  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 627</value>
-  </data>
-  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="QuitButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -862,54 +742,6 @@
   </data>
   <data name="&gt;&gt;QuitButton.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;DonationButton.Name" xml:space="preserve">
-    <value>DonationButton</value>
-  </data>
-  <data name="&gt;&gt;DonationButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DonationButton.Parent" xml:space="preserve">
-    <value>AboutPanel</value>
-  </data>
-  <data name="&gt;&gt;DonationButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;YoutubeSubButton.Name" xml:space="preserve">
-    <value>YoutubeSubButton</value>
-  </data>
-  <data name="&gt;&gt;YoutubeSubButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;YoutubeSubButton.Parent" xml:space="preserve">
-    <value>AboutPanel</value>
-  </data>
-  <data name="&gt;&gt;YoutubeSubButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="AboutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="AboutPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 276</value>
-  </data>
-  <data name="AboutPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 70</value>
-  </data>
-  <data name="AboutPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;AboutPanel.Name" xml:space="preserve">
-    <value>AboutPanel</value>
-  </data>
-  <data name="&gt;&gt;AboutPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AboutPanel.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;AboutPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="DonationButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -983,6 +815,30 @@
   <data name="&gt;&gt;YoutubeSubButton.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="AboutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="AboutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 276</value>
+  </data>
+  <data name="AboutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 70</value>
+  </data>
+  <data name="AboutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel.Name" xml:space="preserve">
+    <value>AboutPanel</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="AboutMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -1018,66 +874,6 @@
   </data>
   <data name="&gt;&gt;AboutMenu.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;MiscMenuSubButton.Name" xml:space="preserve">
-    <value>MiscMenuSubButton</value>
-  </data>
-  <data name="&gt;&gt;MiscMenuSubButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MiscMenuSubButton.Parent" xml:space="preserve">
-    <value>SettingsPanel</value>
-  </data>
-  <data name="&gt;&gt;MiscMenuSubButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ParamsMenuSubButton.Name" xml:space="preserve">
-    <value>ParamsMenuSubButton</value>
-  </data>
-  <data name="&gt;&gt;ParamsMenuSubButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ParamsMenuSubButton.Parent" xml:space="preserve">
-    <value>SettingsPanel</value>
-  </data>
-  <data name="&gt;&gt;ParamsMenuSubButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;IUMenuSubButton.Name" xml:space="preserve">
-    <value>IUMenuSubButton</value>
-  </data>
-  <data name="&gt;&gt;IUMenuSubButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;IUMenuSubButton.Parent" xml:space="preserve">
-    <value>SettingsPanel</value>
-  </data>
-  <data name="&gt;&gt;IUMenuSubButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="SettingsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="SettingsPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 126</value>
-  </data>
-  <data name="SettingsPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 105</value>
-  </data>
-  <data name="SettingsPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;SettingsPanel.Name" xml:space="preserve">
-    <value>SettingsPanel</value>
-  </data>
-  <data name="&gt;&gt;SettingsPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SettingsPanel.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;SettingsPanel.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="MiscMenuSubButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -1187,6 +983,30 @@
   <data name="&gt;&gt;IUMenuSubButton.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="SettingsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="SettingsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 126</value>
+  </data>
+  <data name="SettingsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 105</value>
+  </data>
+  <data name="SettingsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SettingsPanel.Name" xml:space="preserve">
+    <value>SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;SettingsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsPanel.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;SettingsPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="SettingsMenuButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -1223,41 +1043,29 @@
   <data name="&gt;&gt;SettingsMenuButton.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="ModsMenuButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="buttonLaunchGame.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="ModsMenuButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="buttonLaunchGame.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="ModsMenuButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri Light, 15.75pt</value>
+  <data name="buttonLaunchGame.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri Light, 14.25pt</value>
   </data>
-  <data name="ModsMenuButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="buttonLaunchGame.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="ModsMenuButton.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonLaunchGame.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="ModsMenuButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 45</value>
+  <data name="buttonLaunchGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 36</value>
   </data>
-  <data name="ModsMenuButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="buttonLaunchGame.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="ModsMenuButton.Text" xml:space="preserve">
-    <value>M o d s</value>
-  </data>
-  <data name="&gt;&gt;ModsMenuButton.Name" xml:space="preserve">
-    <value>ModsMenuButton</value>
-  </data>
-  <data name="&gt;&gt;ModsMenuButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ModsMenuButton.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;ModsMenuButton.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="buttonLaunchGame.Text" xml:space="preserve">
+    <value>L a u n c h  G a m e</value>
   </data>
   <data name="&gt;&gt;buttonLaunchGame.Name" xml:space="preserve">
     <value>buttonLaunchGame</value>
@@ -1295,41 +1103,65 @@
   <data name="&gt;&gt;MainPanel.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="buttonLaunchGame.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="ModsMenuButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="buttonLaunchGame.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="ModsMenuButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="buttonLaunchGame.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri Light, 14.25pt</value>
+  <data name="ModsMenuButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri Light, 15.75pt</value>
   </data>
-  <data name="buttonLaunchGame.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="ModsMenuButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="buttonLaunchGame.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="ModsMenuButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="buttonLaunchGame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 36</value>
+  <data name="ModsMenuButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 45</value>
   </data>
-  <data name="buttonLaunchGame.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="ModsMenuButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="buttonLaunchGame.Text" xml:space="preserve">
-    <value>L a u n c h  G a m e</value>
+  <data name="ModsMenuButton.Text" xml:space="preserve">
+    <value>M o d s</value>
   </data>
-  <data name="&gt;&gt;buttonLaunchGame.Name" xml:space="preserve">
-    <value>buttonLaunchGame</value>
+  <data name="&gt;&gt;ModsMenuButton.Name" xml:space="preserve">
+    <value>ModsMenuButton</value>
   </data>
-  <data name="&gt;&gt;buttonLaunchGame.Type" xml:space="preserve">
+  <data name="&gt;&gt;ModsMenuButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;buttonLaunchGame.Parent" xml:space="preserve">
-    <value>MainPanel</value>
+  <data name="&gt;&gt;ModsMenuButton.Parent" xml:space="preserve">
+    <value>panel5</value>
   </data>
-  <data name="&gt;&gt;buttonLaunchGame.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;ModsMenuButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 102</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 627</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="panelChildForm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>

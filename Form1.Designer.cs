@@ -50,9 +50,9 @@ namespace MGRModLauncher
             this.ParamsMenuSubButton = new System.Windows.Forms.Button();
             this.IUMenuSubButton = new System.Windows.Forms.Button();
             this.SettingsMenuButton = new System.Windows.Forms.Button();
-            this.ModsMenuButton = new System.Windows.Forms.Button();
             this.MainPanel = new System.Windows.Forms.Panel();
             this.buttonLaunchGame = new System.Windows.Forms.Button();
+            this.ModsMenuButton = new System.Windows.Forms.Button();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.SideMenuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).BeginInit();
@@ -237,16 +237,6 @@ namespace MGRModLauncher
             this.SettingsMenuButton.UseVisualStyleBackColor = false;
             this.SettingsMenuButton.Click += new System.EventHandler(this.SettingsMenuButton_Click);
             // 
-            // ModsMenuButton
-            // 
-            this.ModsMenuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(76)))));
-            resources.ApplyResources(this.ModsMenuButton, "ModsMenuButton");
-            this.ModsMenuButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(87)))), ((int)(((byte)(100)))));
-            this.ModsMenuButton.ForeColor = System.Drawing.Color.White;
-            this.ModsMenuButton.Name = "ModsMenuButton";
-            this.ModsMenuButton.UseVisualStyleBackColor = false;
-            this.ModsMenuButton.Click += new System.EventHandler(this.ModsMenuButton_Click);
-            // 
             // MainPanel
             // 
             this.MainPanel.Controls.Add(this.buttonLaunchGame);
@@ -262,6 +252,16 @@ namespace MGRModLauncher
             this.buttonLaunchGame.Name = "buttonLaunchGame";
             this.buttonLaunchGame.UseVisualStyleBackColor = false;
             this.buttonLaunchGame.Click += new System.EventHandler(this.buttonLaunchGame_Click);
+            // 
+            // ModsMenuButton
+            // 
+            this.ModsMenuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(76)))));
+            resources.ApplyResources(this.ModsMenuButton, "ModsMenuButton");
+            this.ModsMenuButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(87)))), ((int)(((byte)(100)))));
+            this.ModsMenuButton.ForeColor = System.Drawing.Color.White;
+            this.ModsMenuButton.Name = "ModsMenuButton";
+            this.ModsMenuButton.UseVisualStyleBackColor = false;
+            this.ModsMenuButton.Click += new System.EventHandler(this.ModsMenuButton_Click);
             // 
             // panelChildForm
             // 
