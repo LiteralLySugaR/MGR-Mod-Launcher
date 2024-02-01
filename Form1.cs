@@ -99,7 +99,7 @@ namespace MGRModLauncher
             Process.Start(sInfo);
         }
 
-        private Form ActiveForm = null;
+        private new Form ActiveForm = null;
         private void openChildForm(Form ChildForm)
         {
             if (ActiveForm != null)

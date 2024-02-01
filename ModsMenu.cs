@@ -372,8 +372,7 @@ namespace MGRModLauncher
                     {
                         continue;
                     }
-                    string[] sepDir = null;
-                    sepDir = str.Split('\\');
+                    string[] sepDir = str.Split('\\');
                     File.Create($@"Mods\{sepDir[1]}\{sepDir[1]}.mgrmod").Close();
                     string[] lines = new string[5];
                     lines[0] = $"name=";
